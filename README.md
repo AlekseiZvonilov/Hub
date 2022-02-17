@@ -8,7 +8,7 @@
            
 **2) Клонировать репозиторий JSON на локальный компьютер**             
 • Нажать "Code", выбрать пункт HTTPS, скопировать ссылку, открыть или зайти в папку где будет расположен репозиторий                 
-• gti clone https://github.com/AlekseiZvonilov/JSON.git   
+• git clone https://github.com/AlekseiZvonilov/JSON.git   
               
 **3) Внутри локального JSON создать файл “new.json”**              
 • git add new.json  
