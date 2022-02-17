@@ -1,4 +1,4 @@
-**JSON**
+**JSON**         
 **1) Создать внешний репозиторий c названием JSON**      
 • Зайти на сайт https://github.com/               
 • Войти под своей учетной записью         
@@ -33,15 +33,15 @@
 • git push    
 **9) Создать файл preferences.json**    
 • cat > preferences.json    
-• В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON     
-{     "favorite movie":"A Nightmare on Elm Street",
-      "favorite serial":"The Big Bang Theory",
-      "favorite food":"ice cream",
-      "favorite time of year":"summer",
-      "Country you would like to visit":"New Zealand",
-      }    
-• Enter    
-• Ctrl + D                
+• В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON                  
+{     "favorite movie":"A Nightmare on Elm Street",          
+      "favorite serial":"The Big Bang Theory",           
+      "favorite food":"ice cream",           
+      "favorite time of year":"summer",            
+      "Country you would like to visit":"New Zealand",             
+      }                 
+• Enter                
+• Ctrl + D                                
 **10) Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON**          
 • cat > skills.json     
 { 
@@ -117,7 +117,7 @@
 **7) Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML**    
 • vim new.xml     
 • i         
-• <its_me>
+ <its_me>
          <ful_name>Zvonilov_Aleksei_Mihailovich</ful_name>
         <age>33</age>
         <Numder_of_pets>0</Numder_of_pets>
@@ -125,7 +125,12 @@
   </its_me>        
 • Esc           
 • :wq        
-**8) Отправить изменения на внешний репозиторий**              
+**8) Отправить изменения на внешний репозиторий**           
+• git add new.xml    
+• git commit -m "chenges new.xml"    
+• git push    
+**9) Создать файл preferences.xml**     
+
      
 
 
