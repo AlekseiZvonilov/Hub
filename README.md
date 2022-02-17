@@ -4,18 +4,24 @@
 • Войти под своей учетной записью         
 • Нажить зеленую кнопку "New"         
 • В поле "Repository name" ввести "JSON", выбрать "Public","Add a README file"          
-• Нажать "Create repository"            
+• Нажать "Create repository"   
+           
 **2) Клонировать репозиторий JSON на локальный компьютер**             
 • Нажать "Code", выбрать пункт HTTPS, скопировать ссылку, открыть или зайти в папку где будет расположен репозиторий                 
-• gti clone https://github.com/AlekseiZvonilov/JSON.git              
+• gti clone https://github.com/AlekseiZvonilov/JSON.git   
+              
 **3) Внутри локального JSON создать файл “new.json”**              
-• git add new.json    
+• git add new.json  
+    
 **4) Добавить файл под гит**                      
-• git status файл new.json отслеживается(отображается зеленым цветом)               
+• git status файл new.json отслеживается(отображается зеленым цветом)   
+                
 **5) Закоммитить файл**        
-• git commit -m "add new.json"     
+• git commit -m "add new.json"   
+     
 **6)Отправить файл на внешний GitHub репозиторий**     
-• git push      
+• git push     
+   
 **7)Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.**      
 • vim new.json     
 •  i      
@@ -25,12 +31,14 @@
         "Numder of pets":0,        
         "Future desired salary":500"$"         
                 
-}            
+}   
+            
 **8) Отправить изменения на внешний репозиторий**      
 • git status   
 • git add new.fson     
 • git commit "add new.json"   
-• git push    
+• git push 
+     
 **9) Создать файл preferences.json**    
 • cat > preferences.json    
 • В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON                  
@@ -41,7 +49,8 @@
       "Country you would like to visit":"New Zealand",             
       }                 
 • Enter                
-• Ctrl + D                                
+• Ctrl + D   
+                               
 **10) Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON**          
 • cat > skills.json                  
 {                                                   
@@ -75,26 +84,33 @@
 "Python. (Learning the basics. Creating a client-server application)"]                
 }                
 • Enter              
-• Ctrl + D                      
+• Ctrl + D  
+                      
 **11) Отправить сразу 2 файла на внешний репозиторий**     
 • git add .     
 • git commit -m "add skills.json and preferences.json"     
-• git push    
+• git push  
+    
 **12) На веб интерфейсе создать файл bug_report.json**     
 • Нажать "Add file"   
 • Во всплывающем окне выбрать "Create new file"    
-• В поле "Name new file" ввести "bug_report.json"    
+• В поле "Name new file" ввести "bug_report.json" 
+    
 **13) Сделать Commit changes (сохранить) изменения на веб интерфейсе**     
-• Нажать кнопку "Commit new file"    
+• Нажать кнопку "Commit new file"   
+    
 **14) На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON**    
 • открыть файл "bug_report.json"   
 { 
-  "https://docs.google.com/spreadsheets/d/1sBzTaRsWcJAJcvIYXEU67vvfv7cC1JBv3a69DYAV2e8/edit?usp=sharing"
-}     
+  "https://docs.google.com/spreadsheets/d/1sBzTaRsWcJAJcvIYXEU67vvfv7cC1JBv3a69DYAV2e8/edit?usp=sharing"  
+} 
+     
 **15) Сделать Commit changes (сохранить) изменения на веб интерфейсе**     
-• Нажать "Commit change"     
+• Нажать "Commit change"   
+     
 **16) Синхронизировать внешний и локальный репозиторий JSON**    
-• git pull     
+• git pull 
+
      
 **XML**    
 **1) Создать внешний репозиторий c названием XML**    
@@ -102,18 +118,24 @@
 • Войти под своей учетной записью    
 • Нажить зеленую кнопку "New"    
 • В поле "Repository name" ввести "XML", выбрать "Public","Add a README file"    
-• Нажать "Create repository"    
+• Нажать "Create repository"  
+    
 **2) Клонировать репозиторий XML на локальный компьютер**    
 • Нажать "Code", выбрать пункт HTTPS, скопировать ссылку, открыть или зайти в папку где будет расположен репозиторий         
-• gti clone https://github.com/AlekseiZvonilov/XML.git      
+• gti clone https://github.com/AlekseiZvonilov/XML.git   
+     
 **3) Внутри локального XML создать файл “new.xml”**     
-• git add new.xml    
+• git add new.xml  
+    
 **4) Добавить файл под гит**     
-• git status файл new.xml отслеживается(отображается зеленым цветом)     
+• git status файл new.xml отслеживается(отображается зеленым цветом)   
+       
 **5) Закоммитить файл**    
-• git commit -m "add new.xml"        
+• git commit -m "add new.xml"  
+         
 **6) Отправить файл на внешний GitHub репозиторий**         
 • git push   
+   
 **7) Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML**    
 • vim new.xml     
 • i         
@@ -124,13 +146,16 @@
         <Future_desired_salary>500$</Future_desired_salary>
   </its_me>        
 • Esc           
-• :wq        
+• :wq  
+         
 **8) Отправить изменения на внешний репозиторий**           
 • git add new.xml    
 • git commit -m "chenges new.xml"    
 • git push    
+  
 **9) Создать файл preferences.xml**       
-• cat > preference.xml       
+• cat > preference.xml   
+       
 **10) В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML**      
 <preference>             
       <favorite movie>A Nightmare on Elm Street</favorite movie>                         
@@ -140,7 +165,8 @@
       <Country you would like to visit>New Zealand</Country you would like to visit>                                    
  </preference>                          
  • Enter       
- • Ctrl + D              
+ • Ctrl + D    
+               
  **11) Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML**                            
  <hard_skills_at_the_end_of_the_course>            
   <1>Basic theory (What is testing, bug reports, documentation, types, methods, testing directions, etc.) SDLC, STLC.</1>            
@@ -170,63 +196,80 @@
   <25>Load Testing in Jmeter</25>                      
   <26>Scrum Development Methodology</26>                    
   <27>Python (Learning the basics. Creating a client-server application)</27>                     
-</hard_skills_at_the_end_of_the_course>              
+</hard_skills_at_the_end_of_the_course>    
+              
 **12) Сделать коммит в одну строку**       
-• add . ; git commit -m "add 2 files"     
+• add . ; git commit -m "add 2 files"  
+     
 **13) Отправить сразу 2 файла на внешний репозиторий**    
 • get push     
+  
 **14) На веб интерфейсе создать файл bug_report.xml**      
 • В репозитории XML нажать кнопку "Add File"       
 • Во всплывающем окне нажать "Create new file"     
-• В поле "Name new file" ввести "bug_report.xml"    
-**15) Сделать Commit changes (сохранить) изменения на веб интерфейсе.         
-• Нажать кнопку "Commit new file"           
-**16) На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML            
+• В поле "Name new file" ввести "bug_report.xml"   
+   
+**15) Сделать Commit changes (сохранить) изменения на веб интерфейсе**           
+• Нажать кнопку "Commit new file"    
+           
+**16) На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML**               
 • Открыть файл "bug_report.xml"     
 {      
      "https://docs.google.com/spreadsheets/d/1sBzTaRsWcJAJcvIYXEU67vvfv7cC1JBv3a69DYAV2e8/edit?usp=sharing"  
-   }         
+   }   
+               
 **17) Сделать Commit changes (сохранить) изменения на веб интерфейсе**         
 • Нажать "Commit change"        
 **18) Синхронизировать внешний и локальный репозиторий XML      
-• git pull 
+• git pull
+     
 **TXT**      
 **1) Создать внешний репозиторий c названием TXT**     
 • Зайти на сайт https://github.com/    
 • Войти под своей учетной записью  
 • Нажить зеленую кнопку "New"  
 • В поле "Repository name" ввести "TXT", выбрать "Public","Add a README file"  
-• Нажать "Create repository"   
+• Нажать "Create repository" 
+     
 **2) Клонировать репозиторий TXT на локальный компьютер**   
 • Нажать "Code", выбрать пункт HTTPS, скопировать ссылку, открыть или зайти в папку где будет расположен репозиторий    
-• gti clone https://github.com/AlekseiZvonilov/TXT.git    
+• gti clone https://github.com/AlekseiZvonilov/TXT.git   
+      
 **3) Внутри локального TXT создать файл “new.txt”**  
 • git add new.txt  
+    
 **4) Добавить файл под гит**    
 • git status файл new.json отслеживается(отображается зеленым цветом)  
+    
 **5) Закоммитить файл**  
-• git commit -m "add new.txt"   
+• git commit -m "add new.txt" 
+      
 **6)Отправить файл на внешний GitHub репозиторий**   
-• git push    
+• git push 
+        
 **7) Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT**   
         ful_name:Zvonilov Aleksei Mihailovich    
         age:33  
         Numder of pets:0  
         Future desired salary:500"$  
+           
 **8) Отправить изменения на внешний репозиторий**   
 • git status  
 • git add new.txt  
 • git commit "add new.txt"  
 • git push   
+     
 **9) Создать файл preferences.txt**   
 • cat >  preferences.txt  
+   
 **10) В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT**  
 Preference:  
       favorite movie:A Nightmare on Elm Street  
       favorite serial:The Big Bang Theory  
       favorite food:ice cream  
       favorite time of year:summer  
-      Country you would like to visit:New Zealand   
+      Country you would like to visit:New Zealand 
+             
 **11) Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT**   
 • cat > skills.txt    
 Hard skills at the end of the course:  
@@ -258,27 +301,36 @@ Hard skills at the end of the course:
   Scrum Development Methodology      
   Python. (Learning the basics. Creating a client-server application)     
 • Enter   
-• Ctrl + D    
+• Ctrl + D  
+     
 **12) Сделать коммит в одну строку**   
 • add . ; git commit -m "add 2 files"   
+   
 **13) Отправить сразу 2 файла на внешний репозиторий**  
-• get push    
+• get push   
+     
 **14) На веб интерфейсе создать файл bug_report.txt**  
 • В репозитории XML нажать кнопку "Add File"  
 • Во всплывающем окне нажать "Create new file"  
-• В поле "Name new file" ввести "bug_report.txt"    
+• В поле "Name new file" ввести "bug_report.txt"   
+     
 **15) делать Commit changes (сохранить) изменения на веб интерфейсе**  
-• Нажать кнопку "Commit new file"   
+• Нажать кнопку "Commit new file"  
+     
 **16) На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT**  
-• Открыть файл "bug_report.xml"  
+• Открыть файл "bug_report.xml" 
+     
 {  
 "https://docs.google.com/spreadsheets/d/1sBzTaRsWcJAJcvIYXEU67vvfv7cC1JBv3a69DYAV2e8/edit?usp=sharing"  
-}    
+}  
+    
 **17) Сделать Commit changes (сохранить) изменения на веб интерфейсе**
-• Нажать "Commit change"    
+• Нажать "Commit change"  
+     
 **18)Синхронизировать внешний и локальный репозиторий TXT**  
-• git pull        
-
+• git pull  
+   
+ 
   
 
 
