@@ -129,7 +129,70 @@
 • git add new.xml    
 • git commit -m "chenges new.xml"    
 • git push    
-**9) Создать файл preferences.xml**     
+**9) Создать файл preferences.xml**       
+• cat > preference.xml       
+**10) В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML**      
+<preference>             
+      <favorite movie>A Nightmare on Elm Street</favorite movie>                         
+      <favorite serial>The Big Bang Theory</favorite serial>                           
+      <favorite food>ice cream</favorite food>                                   
+      <favorite time of year>summer</favorite time of year>                                 
+      <Country you would like to visit>New Zealand</Country you would like to visit>                                    
+ </preference>                          
+ • Enter       
+ • Ctrl + D              
+ **11) Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML                    
+ <hard_skills_at_the_end_of_the_course>            
+  <1>Basic theory (What is testing, bug reports, documentation, types, methods, testing directions, etc.) SDLC, STLC.</1>            
+  <2>client-server architecture</2>            
+  <3>HTTP Server Request Methods</3>                                                
+  <4>"HTTP server response codes</4>                     
+  <5>Structures of HTTP Requests and Responses</5>                    
+  <6>What is JSON, XML. Their structure</6>                     
+  <7>API testing via Postman (JS, API autotests)</7>                    
+  <8>Removing and reading logs from an external server</8>                 
+  <9>Sniffing http web traffic with Charles and Fiddler</9>                    
+  <10>Web Browser Dev Tools (Google Chrome, FireFox)</10>                          
+  <11>VPN. (How it works, why you need it, how to use it, tool options)</11>                    
+  <12>Mobile testing</12>                      
+  <13>Feature iOS, Android, guidelines</13>                     
+  <14>Building iOS Apps with Xcode</14>                       
+  <15>Building Android Applications with Android Studio</15>                     
+  <16>ADB (управление андройд девайсами)</16>                     
+  <17>Настройка прокси и vpn на iOS и Android</17>             
+  <18>Interception (sniffing) of mobile traffic via Charles and Fiddler on iOS and Android</18>         
+  <19>Command line (terminal) Linux (copy, create, view, move files on servers without a graphical interface)</19>         
+  <20>Basics of bash scripting, automation of routine tasks on the server</20>     
+  <21>Access to remote servers</21>                      
+  <22>SQL Basics (Create, Delete, Drop, Insert Into, Select, From, Where, Join)</22>                       
+  <23>Postgres database (installation, configuration and use)</23>                    
+  <24>Non-relational Redis database (installation, configuration and use)</24>                    
+  <25>Load Testing in Jmeter</25>                      
+  <26>Scrum Development Methodology</26>                    
+  <27>Python (Learning the basics. Creating a client-server application)</27>                     
+</hard_skills_at_the_end_of_the_course>              
+**12) Сделать коммит в одну строку**       
+• add . ; git commit -m "add 2 files"     
+**13) Отправить сразу 2 файла на внешний репозиторий**    
+• get push     
+**14) На веб интерфейсе создать файл bug_report.xml**      
+• В репозитории XML нажать кнопку "Add File"       
+• Во всплывающем окне нажать "Create new file"     
+• В поле "Name new file" ввести "bug_report.xml"    
+**15) Сделать Commit changes (сохранить) изменения на веб интерфейсе.         
+• Нажать кнопку "Commit new file"           
+**16) На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML            
+• Открыть файл "bug_report.xml"     
+{      
+     "https://docs.google.com/spreadsheets/d/1sBzTaRsWcJAJcvIYXEU67vvfv7cC1JBv3a69DYAV2e8/edit?usp=sharing"  
+   }         
+**17) Сделать Commit changes (сохранить) изменения на веб интерфейсе**         
+• Нажать "Commit change"        
+**18) Синхронизировать внешний и локальный репозиторий XML      
+• git pull         
+
+
+
 
      
 
