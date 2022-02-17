@@ -24,15 +24,16 @@
    
 **7)Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.**      
 • vim new.json     
-•  i      
-'''{         
+•  i  
+```
+ {         
         "ful_name":"Zvonilov Aleksei Mihailovich",         
         "age":33,         
         "Numder of pets":0,        
         "Future desired salary":500"$"         
                 
-} '''  
-            
+}     
+ ```           
 **8) Отправить изменения на внешний репозиторий**      
 • git status   
 • git add new.fson     
@@ -41,18 +42,21 @@
      
 **9) Создать файл preferences.json**    
 • cat > preferences.json    
-• В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON                  
+• В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON 
+```
 {     "favorite movie":"A Nightmare on Elm Street",          
       "favorite serial":"The Big Bang Theory",           
       "favorite food":"ice cream",           
       "favorite time of year":"summer",            
       "Country you would like to visit":"New Zealand",             
-      }                 
+      }
+  ```
 • Enter                
 • Ctrl + D   
                                
 **10) Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON**          
-• cat > skills.json                  
+• cat > skills.json 
+```
 {                                                   
 "Hard skills at the end of the course":
 ["Basic theory (What is testing, bug reports, documentation, types, methods, testing directions, etc.) SDLC, STLC.,"                                     
@@ -82,7 +86,8 @@
 "Load Testing in Jmeter",               
 "Scrum Development Methodology",                      
 "Python. (Learning the basics. Creating a client-server application)"]                
-}                
+} 
+```
 • Enter              
 • Ctrl + D  
                       
@@ -100,10 +105,12 @@
 • Нажать кнопку "Commit new file"   
     
 **14) На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON**    
-• открыть файл "bug_report.json"   
+• открыть файл "bug_report.json" 
+```
 { 
   "https://docs.google.com/spreadsheets/d/1sBzTaRsWcJAJcvIYXEU67vvfv7cC1JBv3a69DYAV2e8/edit?usp=sharing"  
 } 
+```
      
 **15) Сделать Commit changes (сохранить) изменения на веб интерфейсе**     
 • Нажать "Commit change"   
@@ -138,13 +145,15 @@
    
 **7) Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML**    
 • vim new.xml     
-• i         
+• i  
+```
  <its_me>
          <ful_name>Zvonilov_Aleksei_Mihailovich</ful_name>
         <age>33</age>
         <Numder_of_pets>0</Numder_of_pets>
         <Future_desired_salary>500$</Future_desired_salary>
-  </its_me>        
+  </its_me>  
+  ```
 • Esc           
 • :wq  
          
@@ -156,18 +165,21 @@
 **9) Создать файл preferences.xml**       
 • cat > preference.xml   
        
-**10) В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML**      
+**10) В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML** 
+```
 <preference>             
       <favorite movie>A Nightmare on Elm Street</favorite movie>                         
       <favorite serial>The Big Bang Theory</favorite serial>                           
       <favorite food>ice cream</favorite food>                                   
       <favorite time of year>summer</favorite time of year>                                 
       <Country you would like to visit>New Zealand</Country you would like to visit>                                    
- </preference>                          
+ </preference> 
+ ```
  • Enter       
  • Ctrl + D    
                
- **11) Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML**                            
+ **11) Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML**    
+ ```
  <hard_skills_at_the_end_of_the_course>            
   <1>Basic theory (What is testing, bug reports, documentation, types, methods, testing directions, etc.) SDLC, STLC.</1>            
   <2>client-server architecture</2>            
@@ -196,7 +208,8 @@
   <25>Load Testing in Jmeter</25>                      
   <26>Scrum Development Methodology</26>                    
   <27>Python (Learning the basics. Creating a client-server application)</27>                     
-</hard_skills_at_the_end_of_the_course>    
+</hard_skills_at_the_end_of_the_course>   
+```
               
 **12) Сделать коммит в одну строку**       
 • add . ; git commit -m "add 2 files"  
@@ -213,10 +226,12 @@
 • Нажать кнопку "Commit new file"    
            
 **16) На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML**               
-• Открыть файл "bug_report.xml"     
+• Открыть файл "bug_report.xml" 
+```
 {      
      "https://docs.google.com/spreadsheets/d/1sBzTaRsWcJAJcvIYXEU67vvfv7cC1JBv3a69DYAV2e8/edit?usp=sharing"  
    }   
+   ```
                
 **17) Сделать Commit changes (сохранить) изменения на веб интерфейсе**         
 • Нажать "Commit change"        
@@ -247,11 +262,13 @@
 **6)Отправить файл на внешний GitHub репозиторий**   
 • git push 
         
-**7) Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT**   
+**7) Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT**  
+```
         ful_name:Zvonilov Aleksei Mihailovich    
         age:33  
         Numder of pets:0  
         Future desired salary:500"$  
+  ```
            
 **8) Отправить изменения на внешний репозиторий**   
 • git status  
@@ -263,15 +280,18 @@
 • cat >  preferences.txt  
    
 **10) В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT**  
+```
 Preference:  
       favorite movie:A Nightmare on Elm Street  
       favorite serial:The Big Bang Theory  
       favorite food:ice cream  
       favorite time of year:summer  
-      Country you would like to visit:New Zealand 
+      Country you would like to visit:New Zealand
+```      
              
 **11) Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT**   
-• cat > skills.txt    
+• cat > skills.txt
+```
 Hard skills at the end of the course:  
   Basic theory (What is testing, bug reports,   documentation, types, methods, testing directions, etc.) SDLC, STLC.  
   client-server architecture  
@@ -299,7 +319,8 @@ Hard skills at the end of the course:
   Non-relational Redis database (installation, configuration and use)      
   Load Testing in Jmeter      
   Scrum Development Methodology      
-  Python. (Learning the basics. Creating a client-server application)     
+  Python. (Learning the basics. Creating a client-server application)
+  ```
 • Enter   
 • Ctrl + D  
      
@@ -319,11 +340,11 @@ Hard skills at the end of the course:
      
 **16) На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT**  
 • Открыть файл "bug_report.xml" 
-     
+  ```   
 {  
 "https://docs.google.com/spreadsheets/d/1sBzTaRsWcJAJcvIYXEU67vvfv7cC1JBv3a69DYAV2e8/edit?usp=sharing"  
 }  
-    
+ ```   
 **17) Сделать Commit changes (сохранить) изменения на веб интерфейсе**
 • Нажать "Commit change"  
      
