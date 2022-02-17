@@ -1,3 +1,4 @@
+**JSON**
 **1) Создать внешний репозиторий c названием JSON**      
 • Зайти на сайт https://github.com/               
 • Войти под своей учетной записью         
@@ -18,13 +19,85 @@
 **6)Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.**      
 • vim new.json     
 •  i      
+{         
+        "ful_name":"Zvonilov Aleksei Mihailovich",         
+        "age":33,         
+        "Numder of pets":0,        
+        "Future desired salary":500"$"         
+                
+}            
+**7) Отправить изменения на внешний репозиторий**      
+• git status   
+• git add new.fson     
+• git commit "add new.json"   
+• git push    
+**8) Создать файл preferences.json**    
+• cat > preferences.json    
+• В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON     
+{     "favorite movie":"A Nightmare on Elm Street",
+      "favorite serial":"The Big Bang Theory",
+      "favorite food":"ice cream",
+      "favorite time of year":"summer",
+      "Country you would like to visit":"New Zealand",
+      }    
+• Enter    
+• Ctrl + D                
+**9) Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON**          
+• cat > skills.json     
 { 
-        "ful_name":"Zvonilov Aleksei Mihailovich",
-        "age":33,
-        "Numder of pets":0,
-        "Future desired salary":500"$"
-          
-}           
+"Hard skills at the end of the course":
+["Basic theory (What is testing, bug reports, documentation, types, methods, testing directions, etc.) SDLC, STLC.,"
+"client-server architecture",
+"HTTP Server Request Methods",
+"HTTP server response codes",
+"Structures of HTTP Requests and Responses",
+"What is JSON, XML. Their structure",
+"API testing via Postman (JS, API autotests)",
+"Removing and reading logs from an external server",
+"Sniffing http web traffic with Charles and Fiddler",
+"Web Browser Dev Tools (Google Chrome, FireFox)",
+"VPN. (How it works, why you need it, how to use it, tool options)",
+"Mobile testing",
+"Feature iOS, Android, guidelines",
+"Building iOS Apps with Xcode",
+"Building Android Applications with Android Studio",
+"ADB (управление андройд девайсами),"
+"Настройка прокси и vpn на iOS и Android",
+"Interception (sniffing) of mobile traffic via Charles and Fiddler on iOS and Android",
+"Command line (terminal) Linux (copy, create, view, move files on servers without a graphical interface)",
+"Basics of bash scripting, automation of routine tasks on the server.",
+"Access to remote servers",
+"SQL Basics (Create, Delete, Drop, Insert Into, Select, From, Where, Join)",
+"Postgres database (installation, configuration and use)",
+"Non-relational Redis database (installation, configuration and use)",
+"Load Testing in Jmeter",
+"Scrum Development Methodology",
+"Python. (Learning the basics. Creating a client-server application)"]
+}    
+• Enter    
+• Ctrl + D    
+**10) Отправить сразу 2 файла на внешний репозиторий**     
+• git add .     
+• git commit -m "add skills.json and preferences.json"     
+• git push    
+**11) На веб интерфейсе создать файл bug_report.json**     
+• Нажать "Add file"   
+• Во всплывающем окне выбрать "Create new file"    
+• В поле "Name new file" ввести "bug_report.json"    
+**12) Сделать Commit changes (сохранить) изменения на веб интерфейсе**     
+• Нажать кнопку "Commit new file"    
+**13) На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON**    
+• открыть файл "bug_report.json"   
+{ 
+  "https://docs.google.com/spreadsheets/d/1sBzTaRsWcJAJcvIYXEU67vvfv7cC1JBv3a69DYAV2e8/edit?usp=sharing"
+}     
+**14) Сделать Commit changes (сохранить) изменения на веб интерфейсе**     
+• Нажать "Commit change"     
+**15) Синхронизировать внешний и локальный репозиторий JSON**    
+• git pull       
+
+
+
 
 
 
