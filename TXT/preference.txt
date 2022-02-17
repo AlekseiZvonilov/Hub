@@ -1,0 +1,6 @@
+Preference:
+      favorite movie:A Nightmare on Elm Street
+      favorite serial:The Big Bang Theory
+      favorite food:ice cream
+      favorite time of year:summer
+      Country you would like to visit:New Zealand
