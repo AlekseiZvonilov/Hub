@@ -1,0 +1,28 @@
+{"Basic theory (What is testing, bug reports, documentation, types, methods, testing directions, etc.) SDLC, STLC.,"
+"client-server architecture",
+"HTTP Server Request Methods",
+"HTTP server response codes",
+"Structures of HTTP Requests and Responses",
+"What is JSON, XML. Their structure",
+"API testing via Postman (JS, API autotests)",
+"Removing and reading logs from an external server",
+"Sniffing http web traffic with Charles and Fiddler",
+"Web Browser Dev Tools (Google Chrome, FireFox)",
+"VPN. (How it works, why you need it, how to use it, tool options)",
+"Mobile testing",
+"Feature iOS, Android, guidelines",
+"Building iOS Apps with Xcode",
+"Building Android Applications with Android Studio",
+"ADB (управление андройд девайсами),"
+"Настройка прокси и vpn на iOS и Android",
+"Interception (sniffing) of mobile traffic via Charles and Fiddler on iOS and Android",
+"Command line (terminal) Linux (copy, create, view, move files on servers without a graphical interface)",
+"Basics of bash scripting, automation of routine tasks on the server.",
+"Access to remote servers",
+"SQL Basics (Create, Delete, Drop, Insert Into, Select, From, Where, Join)",
+"Postgres database (installation, configuration and use)",
+"Non-relational Redis database (installation, configuration and use)",
+"Load Testing in Jmeter",
+"Scrum Development Methodology",
+"Python. (Learning the basics. Creating a client-server application)"
+}
