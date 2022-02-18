@@ -60,7 +60,7 @@
 ```                  
 {                                                   
 "Hard skills at the end of the course":
-["Basic theory (What is testing, bug reports, documentation, types, methods, testing directions, etc.) SDLC, STLC.,"                                     
+"Basic theory (What is testing, bug reports, documentation, types, methods, testing directions, etc.) SDLC, STLC.,"                                     
 "client-server architecture",           
 "HTTP Server Request Methods",                            
 "HTTP server response codes",                            
