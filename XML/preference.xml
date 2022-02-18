@@ -1,7 +1,7 @@
     <preference>
-      <favorite movie>A Nightmare on Elm Street/<favorite movie>
-      <favorite serial>The Big Bang Theory/<favorite serial>
-      <favorite food>ice cream/<favorite food>
-      <favorite time of year>summer/<favorite time of year>
-      <Country you would like to visit>New Zealand/<Country you would like to visit>
- /<preference>     
+      <favorite_movie>A Nightmare on Elm Street</favorite_movie>
+      <favorite_serial>The Big Bang Theory</favorite_serial>
+      <favorite_food>ice cream</favorite food>
+      <favorite_time_of_year>summer</favorite_time_of_year>
+      <Country_you_would_like_to_visit>New Zealand</Country_you_would_like_to_visit>
+ </preference>     
