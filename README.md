@@ -11,9 +11,11 @@
 * gti clone https://github.com/AlekseiZvonilov/JSON.git   
               
 **3) Внутри локального JSON создать файл “new.json”**              
-* git add new.json  
+* git touch new.json   
+* git status файл new.json не отслеживается(отображается красным цветом)    
     
-**4) Добавить файл под гит**                      
+**4) Добавить файл под гит** 
+* git add new.json                        
 * git status файл new.json отслеживается(отображается зеленым цветом)   
                 
 **5) Закоммитить файл**        
@@ -27,38 +29,40 @@
 *  i    
 ```json    
 {         
-"ful_name":"Zvonilov Aleksei Mihailovich",         
+"fulName":"Zvonilov Aleksei Mihailovich",         
 "age":33,         
-"Numder of pets":0,        
- "Future desired salary":500"$",                       
-}
-```             
-**8) Отправить изменения на внешний репозиторий**      
-* git status   
+"pets":0,        
+"FutureDesiredSalary":500"$",                       
+}     
+```     
+* Esc   
+* :wq    
+
+**8) Отправить изменения на внешний репозиторий**         
 * git add new.fson     
-* git commit "add new.json"   
+* git commit "changed new.json"   
 * git push 
      
 **9) Создать файл preferences.json**    
 * cat > preferences.json    
-* В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON 
+**10) В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON** 
 ```json                 
 {    
-      "favorite movie":"A Nightmare on Elm Street",          
-      "favorite serial":"The Big Bang Theory",           
-      "favorite food":"ice cream",           
-      "favorite time of year":"summer",            
-      "Country you would like to visit":"New Zealand",             
+      "favoriteMovie":"A Nightmare on Elm Street",          
+      "favoriteSerial":"The Big Bang Theory",           
+      "favoriteFood":"ice cream",           
+      "favoriteTimeOfYear":"summer",            
+      "CountryYouWouldLikeToVisit":"New Zealand",             
       }   
  ```               
 * Enter                
 * Ctrl + D   
                                
-**10) Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON**          
+**11) Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON**          
 * cat > skills.json
 ```json                  
 {                                                   
-"Hard skills at the end of the course":
+"skills" :[
 "Basic theory (What is testing, bug reports, documentation, types, methods, testing directions, etc.) SDLC, STLC."                                    
 "client-server architecture"           
 "HTTP Server Request Methods"                            
@@ -86,24 +90,25 @@
 "Load Testing in Jmeter"               
 "Scrum Development Methodology"                      
 "Python. (Learning the basics. Creating a client-server application)"   
+]  
              
-}  
+}   
 ```               
 * Enter              
 * Ctrl + D  
                       
-**11) Отправить сразу 2 файла на внешний репозиторий**     
+**12) Отправить сразу 2 файла на внешний репозиторий**     
 * git add . ; git commit -m "add skills.json and preferences.json" ; git push     
     
-**12) На веб интерфейсе создать файл bug_report.json**     
+**13) На веб интерфейсе создать файл bug_report.json**     
 * Нажать "Add file"   
 * Во всплывающем окне выбрать "Create new file"    
 * В поле "Name new file" ввести "bug_report.json" 
     
-**13) Сделать Commit changes (сохранить) изменения на веб интерфейсе**     
+**14) Сделать Commit changes (сохранить) изменения на веб интерфейсе**     
 * Нажать кнопку "Commit new file"   
     
-**14) На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON**    
+**15) На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON**    
 * открыть файл "bug_report.json"
 ```json   
 { 
@@ -111,10 +116,10 @@
 } 
 ```
      
-**15) Сделать Commit changes (сохранить) изменения на веб интерфейсе**     
+**16) Сделать Commit changes (сохранить) изменения на веб интерфейсе**     
 * Нажать "Commit change"   
      
-**16) Синхронизировать внешний и локальный репозиторий JSON**    
+**17) Синхронизировать внешний и локальный репозиторий JSON**    
 * git pull 
 
      
@@ -131,9 +136,11 @@
 * gti clone https://github.com/AlekseiZvonilov/XML.git   
      
 **3) Внутри локального XML создать файл “new.xml”**     
-* git add new.xml  
+* touch new.xml   
+* git status файл new.xml не отслеживается(отображается красным цветом)   
     
-**4) Добавить файл под гит**     
+**4) Добавить файл под гит**    
+* git add new.xml    
 * git status файл new.xml отслеживается(отображается зеленым цветом)   
        
 **5) Закоммитить файл**    
@@ -145,7 +152,7 @@
 **7) Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML**    
 * vim new.xml     
 * i  
-```xml       
+```xml      
  <its_me>
          <ful_name>Zvonilov_Aleksei_Mihailovich</ful_name>
         <age>33</age>
@@ -165,21 +172,21 @@
 * cat > preference.xml   
        
 **10) В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML**  
-```xml    
+```xml        
 <preference>             
-      <favorite movie>A Nightmare on Elm Street</favorite movie>                         
-      <favorite serial>The Big Bang Theory</favorite serial>                           
-      <favorite food>ice cream</favorite food>                                   
-      <favorite time of year>summer</favorite time of year>                                 
-      <Country you would like to visit>New Zealand</Country you would like to visit>                                    
+      <favoriteMovie>A Nightmare on Elm Street</favoriteMovie>                         
+      <favoriteSerial>The Big Bang Theory</favoriteSerial>                           
+      <favoriteFood>ice cream</favorite food>                                   
+      <favoriteTimeOfYear>summer</favoriteTimeOfYear>                                 
+      <countryYouWouldLikeToVisit>New Zealand</countryYouWouldLikeToVisit>                                    
  </preference> 
  ```                         
  * Enter       
  * Ctrl + D    
                
  **11) Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML** 
- ```xml                           
- <hard_skills_at_the_end_of_the_course>            
+ ```xml                            
+ <skills>            
   <one>Basic theory (What is testing, bug reports, documentation, types, methods, testing directions, etc.) SDLC, STLC.</one>            
   <two>client-server architecture</two>            
   <three>HTTP Server Request Methods</three>                                                
@@ -207,11 +214,13 @@
   <twentyfive>Load Testing in Jmeter</twentyfive>                      
   <twentysix>Scrum Development Methodology</twentysix>                    
   <twentyseven>Python (Learning the basics. Creating a client-server application)</twentyseven>                     
-</hard_skills_at_the_end_of_the_course>  
-```  
+</skills>  
+```   
+* Enter    
+* Ctrl + D
               
 **12) Сделать коммит в одну строку**       
-* add . ; git commit -m "add 2 files"  
+* add . ; git commit -m "add preferences.xml and skills.xml"  
      
 **13) Отправить сразу 2 файла на внешний репозиторий**    
 * get push     
@@ -226,7 +235,7 @@
            
 **16) На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML**               
 * Открыть файл "bug_report.xml" 
-```xml    
+```xml       
 {      
      "https://docs.google.com/spreadsheets/d/1sBzTaRsWcJAJcvIYXEU67vvfv7cC1JBv3a69DYAV2e8/edit?usp=sharing"  
    } 
@@ -263,14 +272,17 @@
 * git push 
         
 **7) Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT**  
+* vim new.txt   
+* i
 ```txt 
         ful_name:Zvonilov Aleksei Mihailovich    
         age:33  
         Numder of pets:0  
         Future desired salary:500"$  
-```           
-**8) Отправить изменения на внешний репозиторий**   
-* git status  
+``` 
+* Esc  
+* :wq            
+**8) Отправить изменения на внешний репозиторий**     
 * git add new.txt  
 * git commit "add new.txt"  
 * git push   
@@ -278,7 +290,7 @@
 **9) Создать файл preferences.txt**   
 * cat >  preferences.txt  
    
-**10) В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT** 
+**10) В файл preferences.txt добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT** 
 ```txt 
 Preference:  
       favorite movie:A Nightmare on Elm Street  
@@ -286,7 +298,10 @@ Preference:
       favorite food:ice cream  
       favorite time of year:summer  
       Country you would like to visit:New Zealand 
-```             
+```  
+* Enter 
+* Ctrl + D    
+            
 **11) Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT**   
 * cat > skills.txt 
 ```txt   
@@ -323,7 +338,7 @@ Hard skills at the end of the course:
 * Ctrl + D  
      
 **12) Сделать коммит в одну строку**   
-* add . ; git commit -m "add 2 files"   
+* add . ; git commit -m "add preferences.txt and skills.txt"   
    
 **13) Отправить сразу 2 файла на внешний репозиторий**  
 * get push   
