@@ -44,7 +44,8 @@
 * git push 
      
 **9) Создать файл preferences.json**    
-* cat > preferences.json    
+* cat > preferences.json
+      
 **10) В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON** 
 ```json                 
 {    
@@ -133,7 +134,7 @@
     
 **2) Клонировать репозиторий XML на локальный компьютер**    
 * Нажать "Code", выбрать пункт HTTPS, скопировать ссылку, открыть или зайти в папку где будет расположен репозиторий         
-* gti clone https://github.com/AlekseiZvonilov/XML.git   
+* git clone https://github.com/AlekseiZvonilov/XML.git   
      
 **3) Внутри локального XML создать файл “new.xml”**     
 * touch new.xml   
@@ -349,7 +350,7 @@ Hard skills at the end of the course:
 * Во всплывающем окне нажать "Create new file"  
 * В поле "Name new file" ввести "bug_report.txt"   
      
-**15) делать Commit changes (сохранить) изменения на веб интерфейсе**  
+**15) Cделать Commit changes (сохранить) изменения на веб интерфейсе**  
 * Нажать кнопку "Commit new file"  
      
 **16) На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT**  
