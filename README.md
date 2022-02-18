@@ -25,14 +25,13 @@
 **7)Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.**      
 * vim new.json     
 *  i    
-```    
- {         
-        "ful_name":"Zvonilov Aleksei Mihailovich",         
-        "age":33,         
-        "Numder of pets":0,        
-        "Future desired salary":500"$"         
-                
-}      
+```json    
+{         
+"ful_name":"Zvonilov Aleksei Mihailovich",         
+"age":33,         
+"Numder of pets":0,        
+ "Future desired salary":500"$",                       
+}
 ```             
 **8) Отправить изменения на внешний репозиторий**      
 * git status   
@@ -43,7 +42,7 @@
 **9) Создать файл preferences.json**    
 * cat > preferences.json    
 * В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON 
-```                 
+```json                 
 {    
       "favorite movie":"A Nightmare on Elm Street",          
       "favorite serial":"The Big Bang Theory",           
@@ -57,36 +56,37 @@
                                
 **10) Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON**          
 * cat > skills.json
-```                  
+```json                  
 {                                                   
 "Hard skills at the end of the course":
-"Basic theory (What is testing, bug reports, documentation, types, methods, testing directions, etc.) SDLC, STLC.,"                                     
-"client-server architecture",           
-"HTTP Server Request Methods",                            
-"HTTP server response codes",                            
-"Structures of HTTP Requests and Responses",                           
-"What is JSON, XML. Their structure",                            
-"API testing via Postman (JS, API autotests)",                       
-"Removing and reading logs from an external server",                    
-"Sniffing http web traffic with Charles and Fiddler",                      
-"Web Browser Dev Tools (Google Chrome, FireFox)",                       
-"VPN. (How it works, why you need it, how to use it, tool options)",                                    
-"Mobile testing",                            
-"Feature iOS, Android, guidelines",                    
-"Building iOS Apps with Xcode",                             
-"Building Android Applications with Android Studio",                          
+"Basic theory (What is testing, bug reports, documentation, types, methods, testing directions, etc.) SDLC, STLC."                                    
+"client-server architecture"           
+"HTTP Server Request Methods"                            
+"HTTP server response codes"                            
+"Structures of HTTP Requests and Responses"                           
+"What is JSON, XML. Their structure"                            
+"API testing via Postman (JS, API autotests)"                       
+"Removing and reading logs from an external server"                    
+"Sniffing http web traffic with Charles and Fiddler"                      
+"Web Browser Dev Tools (Google Chrome, FireFox)"                       
+"VPN. (How it works, why you need it, how to use it, tool options)"                                   
+"Mobile testing"                            
+"Feature iOS, Android, guidelines"                    
+"Building iOS Apps with Xcode"                             
+"Building Android Applications with Android Studio"                          
 "ADB (управление андройд девайсами),"                        
-"Настройка прокси и vpn на iOS и Android",                                
-"Interception (sniffing) of mobile traffic via Charles and Fiddler on iOS and Android",                            
-"Command line (terminal) Linux (copy, create, view, move files on servers without a graphical interface)",                                           
-"Basics of bash scripting, automation of routine tasks on the server.",        
-"Access to remote servers",             
-"SQL Basics (Create, Delete, Drop, Insert Into, Select, From, Where, Join)",             
-"Postgres database (installation, configuration and use)",             
-"Non-relational Redis database (installation, configuration and use)",               
-"Load Testing in Jmeter",               
-"Scrum Development Methodology",                      
-"Python. (Learning the basics. Creating a client-server application)"               
+"Настройка прокси и vpn на iOS и Android"                                
+"Interception (sniffing) of mobile traffic via Charles and Fiddler on iOS and Android"                            
+"Command line (terminal) Linux (copy, create, view, move files on servers without a graphical interface)"                                           
+"Basics of bash scripting, automation of routine tasks on the server."        
+"Access to remote servers"             
+"SQL Basics (Create, Delete, Drop, Insert Into, Select, From, Where, Join)"             
+"Postgres database (installation, configuration and use)"             
+"Non-relational Redis database (installation, configuration and use)"               
+"Load Testing in Jmeter"               
+"Scrum Development Methodology"                      
+"Python. (Learning the basics. Creating a client-server application)"   
+             
 }  
 ```               
 * Enter              
@@ -107,7 +107,7 @@
     
 **14) На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON**    
 * открыть файл "bug_report.json"
-```   
+```json   
 { 
   "https://docs.google.com/spreadsheets/d/1sBzTaRsWcJAJcvIYXEU67vvfv7cC1JBv3a69DYAV2e8/edit?usp=sharing"  
 } 
@@ -147,7 +147,7 @@
 **7) Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML**    
 * vim new.xml     
 * i  
-```       
+```xml       
  <its_me>
          <ful_name>Zvonilov_Aleksei_Mihailovich</ful_name>
         <age>33</age>
@@ -167,7 +167,7 @@
 * cat > preference.xml   
        
 **10) В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML**  
-```    
+```xml    
 <preference>             
       <favorite movie>A Nightmare on Elm Street</favorite movie>                         
       <favorite serial>The Big Bang Theory</favorite serial>                           
@@ -180,35 +180,35 @@
  * Ctrl + D    
                
  **11) Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML** 
- ```                           
+ ```xml                           
  <hard_skills_at_the_end_of_the_course>            
-  <1>Basic theory (What is testing, bug reports, documentation, types, methods, testing directions, etc.) SDLC, STLC.</1>            
-  <2>client-server architecture</2>            
-  <3>HTTP Server Request Methods</3>                                                
-  <4>"HTTP server response codes</4>                     
-  <5>Structures of HTTP Requests and Responses</5>                    
-  <6>What is JSON, XML. Their structure</6>                     
-  <7>API testing via Postman (JS, API autotests)</7>                    
-  <8>Removing and reading logs from an external server</8>                 
-  <9>Sniffing http web traffic with Charles and Fiddler</9>                    
-  <10>Web Browser Dev Tools (Google Chrome, FireFox)</10>                          
-  <11>VPN. (How it works, why you need it, how to use it, tool options)</11>                    
-  <12>Mobile testing</12>                      
-  <13>Feature iOS, Android, guidelines</13>                     
-  <14>Building iOS Apps with Xcode</14>                       
-  <15>Building Android Applications with Android Studio</15>                     
-  <16>ADB (управление андройд девайсами)</16>                     
-  <17>Настройка прокси и vpn на iOS и Android</17>             
-  <18>Interception (sniffing) of mobile traffic via Charles and Fiddler on iOS and Android</18>         
-  <19>Command line (terminal) Linux (copy, create, view, move files on servers without a graphical interface)</19>         
-  <20>Basics of bash scripting, automation of routine tasks on the server</20>     
-  <21>Access to remote servers</21>                      
-  <22>SQL Basics (Create, Delete, Drop, Insert Into, Select, From, Where, Join)</22>                       
-  <23>Postgres database (installation, configuration and use)</23>                    
-  <24>Non-relational Redis database (installation, configuration and use)</24>                    
-  <25>Load Testing in Jmeter</25>                      
-  <26>Scrum Development Methodology</26>                    
-  <27>Python (Learning the basics. Creating a client-server application)</27>                     
+  <one>Basic theory (What is testing, bug reports, documentation, types, methods, testing directions, etc.) SDLC, STLC.</one>            
+  <two>client-server architecture</two>            
+  <three>HTTP Server Request Methods</three>                                                
+  <four>"HTTP server response codes</four>                     
+  <five>Structures of HTTP Requests and Responses</five>                    
+  <six>What is JSON, XML. Their structure</six>                     
+  <seven>API testing via Postman (JS, API autotests)</seven>                    
+  <eight>Removing and reading logs from an external server</eight>                 
+  <nine>Sniffing http web traffic with Charles and Fiddler</nine>                    
+  <ten>Web Browser Dev Tools (Google Chrome, FireFox)</ten>                          
+  <eleven>VPN. (How it works, why you need it, how to use it, tool options)</eleven>                    
+  <twelve>Mobile testing</twelve>                      
+  <thirteen>Feature iOS, Android, guidelines</thirteen>                     
+  <fourteen>Building iOS Apps with Xcode</fourteen>                       
+  <fiveteen>Building Android Applications with Android Studio</fiveteen>                     
+  <sixteen>ADB (управление андройд девайсами)</sixteen>                     
+  <seventeen>Настройка прокси и vpn на iOS и Android</seventeen>             
+  <eighteen>Interception (sniffing) of mobile traffic via Charles and Fiddler on iOS and Android</eighteen>         
+  <nineteen>Command line (terminal) Linux (copy, create, view, move files on servers without a graphical interface)</nineteen>         
+  <twenty>Basics of bash scripting, automation of routine tasks on the server</twenty>     
+  <twentyone>Access to remote servers</twentyone>                      
+  <twentytwo>SQL Basics (Create, Delete, Drop, Insert Into, Select, From, Where, Join)</twentytwo>                       
+  <twentythree>Postgres database (installation, configuration and use)</twentythree>                    
+  <twentyfour>Non-relational Redis database (installation, configuration and use)</twentyfour>                    
+  <twentyfive>Load Testing in Jmeter</twentyfive>                      
+  <twentysix>Scrum Development Methodology</twentysix>                    
+  <twentyseven>Python (Learning the basics. Creating a client-server application)</twentyseven>                     
 </hard_skills_at_the_end_of_the_course>  
 ```  
               
@@ -228,7 +228,7 @@
            
 **16) На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML**               
 * Открыть файл "bug_report.xml" 
-```    
+```xml    
 {      
      "https://docs.google.com/spreadsheets/d/1sBzTaRsWcJAJcvIYXEU67vvfv7cC1JBv3a69DYAV2e8/edit?usp=sharing"  
    } 
@@ -265,7 +265,7 @@
 * git push 
         
 **7) Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT**  
-``` 
+```txt 
         ful_name:Zvonilov Aleksei Mihailovich    
         age:33  
         Numder of pets:0  
@@ -281,7 +281,7 @@
 * cat >  preferences.txt  
    
 **10) В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT** 
-``` 
+```txt 
 Preference:  
       favorite movie:A Nightmare on Elm Street  
       favorite serial:The Big Bang Theory  
@@ -291,7 +291,7 @@ Preference:
 ```             
 **11) Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT**   
 * cat > skills.txt 
-```   
+```txt   
 Hard skills at the end of the course:  
   Basic theory (What is testing, bug reports,   documentation, types, methods, testing directions, etc.) SDLC, STLC.  
   client-server architecture  
@@ -340,7 +340,7 @@ Hard skills at the end of the course:
      
 **16) На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT**  
 * Открыть файл "bug_report.xml" 
- ```    
+ ```txt    
 {  
 "https://docs.google.com/spreadsheets/d/1sBzTaRsWcJAJcvIYXEU67vvfv7cC1JBv3a69DYAV2e8/edit?usp=sharing"  
 }  
