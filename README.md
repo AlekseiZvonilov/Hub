@@ -281,7 +281,8 @@
         Future desired salary:500"$  
 ``` 
 * Esc  
-* :wq            
+* :wq   
+         
 **8) Отправить изменения на внешний репозиторий**     
 * git add new.txt  
 * git commit "add new.txt"  
