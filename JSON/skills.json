@@ -1,5 +1,5 @@
 { 
-"Hard skills at the end of the course":
+"skills":[
 "Basic theory (What is testing, bug reports, documentation, types, methods, testing directions, etc.) SDLC, STLC.,"
 "client-server architecture",
 "HTTP Server Request Methods",
@@ -15,8 +15,8 @@
 "Feature iOS, Android, guidelines",
 "Building iOS Apps with Xcode",
 "Building Android Applications with Android Studio",
-"ADB (управление андройд девайсами),"
-"Настройка прокси и vpn на iOS и Android",
+"ADB,"
+"Proxy settings and vpn on iOS и Android",
 "Interception (sniffing) of mobile traffic via Charles and Fiddler on iOS and Android",
 "Command line (terminal) Linux (copy, create, view, move files on servers without a graphical interface)",
 "Basics of bash scripting, automation of routine tasks on the server.",
@@ -26,5 +26,6 @@
 "Non-relational Redis database (installation, configuration and use)",
 "Load Testing in Jmeter",
 "Scrum Development Methodology",
-"Python. (Learning the basics. Creating a client-server application)",
+"Python. (Learning the basics. Creating a client-server application)"
+]
 }
