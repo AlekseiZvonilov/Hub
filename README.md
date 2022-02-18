@@ -93,9 +93,7 @@
 * Ctrl + D  
                       
 **11) Отправить сразу 2 файла на внешний репозиторий**     
-* git add .     
-* git commit -m "add skills.json and preferences.json"     
-* git push  
+* git add . ; git commit -m "add skills.json and preferences.json" ; git push     
     
 **12) На веб интерфейсе создать файл bug_report.json**     
 * Нажать "Add file"   
