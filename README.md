@@ -287,7 +287,7 @@
          
 **8) Отправить изменения на внешний репозиторий**     
 * git add new.txt  
-* git commit "add new.txt"  
+* git commit -m "add new.txt"  
 * git push   
      
 **9) Создать файл preferences.txt**   
