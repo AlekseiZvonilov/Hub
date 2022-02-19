@@ -39,8 +39,8 @@
 * :wq    
 
 **8) Отправить изменения на внешний репозиторий**         
-* git add new.fson     
-* git commit "changed new.json"   
+* git add new.json     
+* git commit -m "changed new.json"   
 * git push 
      
 **9) Создать файл preferences.json**    
@@ -261,9 +261,10 @@
 * gti clone https://github.com/AlekseiZvonilov/TXT.git   
       
 **3) Внутри локального TXT создать файл “new.txt”**  
-* git add new.txt  
+* touch new.txt  
     
-**4) Добавить файл под гит**    
+**4) Добавить файл под гит**   
+* git add new.txt   
 * git status файл new.json отслеживается(отображается зеленым цветом)  
     
 **5) Закоммитить файл**  
@@ -340,7 +341,7 @@ Hard skills at the end of the course:
 * Ctrl + D  
      
 **12) Сделать коммит в одну строку**   
-* add . ; git commit -m "add preferences.txt and skills.txt"   
+* git add . ; git commit -m "add preferences.txt and skills.txt"   
    
 **13) Отправить сразу 2 файла на внешний репозиторий**  
 * get push   
