@@ -221,10 +221,10 @@
 * Ctrl + D
               
 **12) Сделать коммит в одну строку**       
-* add . ; git commit -m "add preferences.xml and skills.xml"  
+* git add . ; git commit -m "add preferences.xml and skills.xml"  
      
 **13) Отправить сразу 2 файла на внешний репозиторий**    
-* get push     
+* git push     
   
 **14) На веб интерфейсе создать файл bug_report.xml**      
 * В репозитории XML нажать кнопку "Add File"       
